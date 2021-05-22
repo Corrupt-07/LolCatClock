@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Mono+One&display=swap');
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: #e1695f;
+}
+
+.main{
+    border: 3px solid black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 5rem;
+}
+h1{
+    /* text-align: center; */
+    font-size: 3rem;
+}
+p{
+    font-size: 1rem;
+}

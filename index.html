@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoLCatClock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>LoLCat Clock</h1>
+        <p>I can Haz time</p>
+        <p id="actual_time"></p>
+        <input type="text" placeholder="Set alarm" id="setAlarm">
+        <select id="amPm">
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+        </select>
+        <input type="submit" value="Set Alarm" id="setAlarmValue" onclick="setAlarm()">
+        <p id="errorMessage"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
